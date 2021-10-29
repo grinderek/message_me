@@ -14,6 +14,7 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
+
 const images = require.context('../images', true)
 
 $(document).on('turbolinks:load', function () {
